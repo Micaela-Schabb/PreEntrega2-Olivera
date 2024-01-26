@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chiaro</title>
+    <link rel="stylesheet" href="./estilos/estilo.css">
+    <link rel="shortcut icon" href="medios/logo-chiaro.jpeg" type="image/x-icon">
+<style>
+    .flex-container {
+          display: flex;
+          background-color: palevioletred;
+          
+        }
+
+        .flex-container{
+            justify-content: flex-end;
+            justify-content: space-around;
+        }
+        
+        .flex-container > ul {
+          margin: 60px;
+          padding: 40px;
+          font-size: 40px;
+        }
+
+        .row-flex {
+        display: flex;
+        flex-wrap: wrap;
+        }
+
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+        }
+   </style>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+    <header>
+        <img src="./medios/logo-chiaro.jpeg" alt="Logo de Chiaro">       
+        <nav> 
+            <ul class="flex-container">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="./page/conocenos.html">Conocenos</a></li>
+                <li><a href="./page/productos.html">Productos</a></li>
+                <li><a href="./page/recomendaciones.html">Recomendaciones</a></li>
+                <li><a href="./page/contacto.html">Contacto</a></li> 
+            </ul>
+        </nav>
+        <h1 id="arriba">Bienvenidos a Chiaro </h1>
+        <div></div>
+        <a href="#abajo">Ir abajo</a>
+    </header>
+    <div class="row-flex row ">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 text-center">
+            <main>
+                <section> 
+                    <h2> Enamorate de tu hogar</h2>
+                    <p>
+                        Conoce todos nuestros productos y comenza a darle vida a tu hogar.
+                    </p>
+                </section>
+            </main>
+        </div>
+        <div class="col-xs-12 col-sm-4 col-md-6 col-lg-6 text-center">
+            <a href="./page/productos.html"><img src="./medios/productos.jpeg" alt=" Collage productos"></a>
+        </div>
+        <div class="col-xs-12 col-sm-8 col-md-6 col-lg-6 center">
+            <h4>Todas nuestras velas estan hechas con cera de soja y materiales naturales, son veganas y tienen fragancias unicas.
+                pueden ser usadas como simple decoracion o utilizarlas como mas te guste.
+                Algunos aromas tienen propiedades que ayudan a la relajacion y disminucion del estres.
+            </h4>
+        </div>
+    <div class="col-xs-10 col-sm-10 col-md-10 col-lg-10 "> 
+    </div> 
+    <div class="col-xs-2 col-sm-2 col-md-2 col-lg-2 ">
+    <footer id="abajo">
+        <a href="#arriba">ir arriba</a>
+        <a href="https://www.instagram.com/chiaro_deco?igsh=MWJhYWkyN29rNmNndA=="><img src="./medios/instagram.jpg" alt=" logo instagram"></a>
+    </footer>
+    </div>
+    </div>
+
+</body>
+</html>
